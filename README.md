@@ -8,3 +8,12 @@ The Sign Language Recognition System consists of 2 models.
 2) **Open CV Model** : This model is used for real time recognition of sign language. 5 signs can be detected. The user will make a sign in front of the webcamera. This is taken as input by OpenCV. It is passed on to MediaPipe.Hands function which creates a pattern on the hand (Hand has fixed set of nodes. based on pattern some are hidden and rest are shown. The ones that are shown are connected to make pattern). The gesture is then described as text.
 
 3) The report of the project work is attached. Please refer it to view the screenshots of the successful demo of the project along with other information.
+
+
+## Web based Sign Language Recognition Model
+
+[Visit repository][https://github.com/jassu75/Web-based-Hand-Gesture-Recognition]
+
+## Realtime Sign Language Recognition Model
+
+[Visit repository][https://github.com/jassu75/Real-Time-Hand-Gesture-Recognition]
