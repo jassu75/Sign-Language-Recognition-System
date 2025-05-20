@@ -12,8 +12,8 @@ The Sign Language Recognition System consists of 2 models.
 
 ## Web based Sign Language Recognition Model
 
-[Visit repository][https://github.com/jassu75/Web-based-Hand-Gesture-Recognition]
+[Visit repository](https://github.com/jassu75/Web-based-Hand-Gesture-Recognition)
 
 ## Realtime Sign Language Recognition Model
 
-[Visit repository][https://github.com/jassu75/Real-Time-Hand-Gesture-Recognition]
+[Visit repository](https://github.com/jassu75/Real-Time-Hand-Gesture-Recognition)
