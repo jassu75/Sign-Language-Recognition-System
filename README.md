@@ -17,11 +17,11 @@ The Sign Language Recognition System consists of 2 applications.
 
     Technologies Used: OpenCV, Mediapipe, Python
 
-## Realtime Sign Language Recognition Model
+## Real-time Sign Language Recognition Model
 
 [Visit repository](https://github.com/jassu75/Real-Time-Hand-Gesture-Recognition)
 
-## Web based Sign Language Recognition Model
+## Web-based Sign Language Recognition Model
 
 [Visit repository](https://github.com/jassu75/Web-based-Hand-Gesture-Recognition)
 
