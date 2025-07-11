@@ -6,6 +6,7 @@ This project was made by Ruchi, Sameer Kumar Singh, Tejas V Kangod, Saurav Kumar
 - Pease
 - No Hand
 - Open Hand.
+
 The Sign Language Recognition System consists of 2 applications.
 
 1) **The Xception Architecture** : This model has a minimalistic website for the front end through which the user can login. The user will have to upload an image of a sign gesture. The model will guess the guesture and give output. This model was trained using transferable training architecture. First the layers were trained with vgg_16 model and then the MobileNet model. After that the Xception model was added.
