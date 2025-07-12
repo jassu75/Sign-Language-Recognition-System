@@ -1,31 +1,66 @@
-# Sign-Language-Recognition-System
+# 🧠 Sign Language Recognition System
 
-## Demo Link
-[Visit Youtube](https://youtu.be/MP3bIqmON_k?si=UmykhsyY2FekzWft)
+## 📽️ Demo Link  
+[Watch on YouTube](https://youtu.be/MP3bIqmON_k?si=UmykhsyY2FekzWft)
 
-This project was made by Ruchi, Sameer Kumar Singh, Tejas V Kangod, Saurav Kumar. The 5 signs which can be recognised using this model are:
-- Thumbs Up
-- OK
-- Pease
-- No Hand
-- Open Hand.
+This project was developed by **Tejas Vinayaka Rao Kangod**, **Ruchi**, **Sameer Kumar Singh**, and **Saurav Kumar**.
 
-The Sign Language Recognition System consists of 2 applications.
+The model is capable of recognizing the following 5 hand gestures:
+- 👍 Thumbs Up  
+- 👌 OK  
+- ✌️ Peace  
+- ✋ Open Hand  
+- 🚫 No Hand 
 
-1) **The Xception Architecture** : This model has a minimalistic website for the front end through which the user can login. The user will have to upload an image of a sign gesture. The model will guess the guesture and give output. This model was trained using transferable training architecture. First the layers were trained with vgg_16 model and then the MobileNet model. After that the Xception model was added.
+---
 
-    Technologies Used : Flask, Xception Model, HTML, CSS, Javascript, Bootstrap
+## 🧩 Project Overview
 
-3) **Open CV Model** : This model is used for real time recognition of sign language. The user will make a sign in front of the webcamera. This is taken as input by OpenCV. It is passed on to MediaPipe.Hands function which creates a pattern on the hand (Hand has fixed set of nodes. based on pattern some are hidden and rest are shown. The ones that are shown are connected to make pattern). The gesture is then described as text.
+The **Sign Language Recognition System** consists of **two applications**:
 
-    Technologies Used: OpenCV, Mediapipe, Python
+---
 
-## Real-time Sign Language Recognition Model
+### 1️⃣ Web-Based Image Classification Model (Xception Architecture)
 
-[Visit repository](https://github.com/jassu75/Real-Time-Hand-Gesture-Recognition)
+This application provides a **minimalistic web interface** where users can:
+- Log in  
+- Upload an image of a hand gesture  
+- Receive a prediction of the gesture made
 
-## Web-based Sign Language Recognition Model
+#### 🧪 Model Architecture:
+- Initially trained using **VGG-16**
+- Then refined with **MobileNet**
+- Final training done using the **Xception model**
 
-[Visit repository](https://github.com/jassu75/Web-based-Hand-Gesture-Recognition)
+#### 🛠️ Technologies Used:
+- Flask  
+- Xception Model  
+- HTML, CSS  
+- JavaScript  
+- Bootstrap
 
+---
 
+### 2️⃣ Real-Time Sign Detection Using OpenCV
+
+This model recognizes signs **in real time** using your webcam.  
+The process involves:
+- Capturing live video feed via webcam  
+- Detecting hand landmarks using **MediaPipe.Hands**  
+- Identifying gestures based on the visible joint patterns  
+- Displaying the recognized sign as text
+
+#### 🛠️ Technologies Used:
+- Python  
+- OpenCV  
+- MediaPipe  
+
+---
+
+## 🔗 Repositories
+
+### 📦 Real-time Sign Language Recognition Model  
+[View Repository](https://github.com/jassu75/Real-Time-Hand-Gesture-Recognition)
+
+### 🌐 Web-based Sign Language Recognition Model  
+[View Repository](https://github.com/jassu75/Web-based-Hand-Gesture-Recognition)
