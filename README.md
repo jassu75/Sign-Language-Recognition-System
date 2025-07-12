@@ -23,7 +23,6 @@ The **Sign Language Recognition System** consists of **two applications**:
 ### 1️⃣ Web-Based Image Classification Model (Xception Architecture)
 
 This application provides a **minimalistic web interface** where users can:
-- Log in  
 - Upload an image of a hand gesture  
 - Receive a prediction of the gesture made
 
